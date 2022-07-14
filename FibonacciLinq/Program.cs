@@ -29,6 +29,8 @@
                 number3 = x == 1 ? 0 : number1 + number2;
                 return number3;
             });
+            foreach(var item in list)
+                Console.WriteLine(item);
         }
     }
 }
